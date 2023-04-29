@@ -57,7 +57,7 @@ const Box = styled(motion.div)<{ bgPhoto: string }>`
     background-image: url(${(props) => props.bgPhoto});
     background-size: cover;
     background-position: center center;
-    height: 200px;
+    height: 150px;
     font-size: 66px;
     &:first-child {
         transform-origin: center left;
@@ -71,7 +71,7 @@ const Info = styled(motion.div)`
     padding: 10px;
     background-color: ${(props) => props.theme.black.lighter};
     opacity: 0; 
-    position: absoulte;
+    position: absolute;
     width: 100%;
     bottom: 0;
     h4 {
